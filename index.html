@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>LongArt Travell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Aos.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- SEO -->
+    <meta name="description" content="¿Está planeando un viaje? Nuestra agencia de viajes ofrece viajes personalizados, paquetes asequibles y un proceso de reserva sencillo. Empiece su aventura hoy mismo.">
+    <meta property="og:title" content="LongArt Travell">
+    <link rel="canonical" href="https://www.ryrob.com/meta-description-generator/?share=rlWTR4QsrpKF1y">
+    <meta property="og:description" content="¿Está planeando un viaje? Nuestra agencia de viajes ofrece viajes personalizados, paquetes asequibles y un proceso de reserva sencillo. Empiece su aventura hoy mismo.">
+    <meta property="og:image" content="img/logo.webp">
+    <meta property="og:url" content="https://tusitio.com/">
+
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LongArt Travell">
+    <meta name="twitter:description" content="¿Está planeando un viaje? Nuestra agencia de viajes ofrece viajes personalizados, paquetes asequibles y un proceso de reserva sencillo. Empiece su aventura hoy mismo.">
+    <meta name="twitter:image" content="img/logo.webp">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar sticky-top bg-light shadow navbar-expand-lg" style="z-index: 1050;">
+        <div class="container-fluid px-3">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.webp" alt="Logo" style="height:50px;">
+            </a>
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Menú">
+                <span class="bi bi-list" style="font-size:2rem;"></span>
+            </button>
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link active" href="#">Inicio rápido</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="home.html#paquetes">Ofertas Especiales</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="home.html#reserva">Reservas Fáciles</a>
+                    </li>
+                    <!-- Menú con submenu -->
+                    <li class="nav-item dropdown mx-lg-2">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios Adicionales
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="serviciosDropdown">
+                            <li><a class="dropdown-item" href="home.html#reserva">Tour Personalizado</a></li>
+                            <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=584249400498">Asistencia 24/7</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Botón reserva -->
+                <div class="d-flex justify-content-lg-end justify-content-center mb-2 mb-lg-0">
+                    <a href="home.html#reserva" class="btn btn-primary">Reserva</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider Header con Swiper -->
+    <header class="swiper mySwiper position-relative" style="height: 90vh;">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide" style="background-image: url('img/1-slider-1.webp'); height: 100%;">
+                <div class="slide1-header caption-overlay text-center text-white p-3">
+                    <h1 class="display-4">¡Descubre tu próxima aventura con nosotros!</h1>
+                    <p class="lead">Reserva tus boletos de manera rápida y sencilla. Disfruta de un viaje inolvidable con nuestros servicios personalizados.</p>
+                    <div class="btn-container">
+                        <div>
+                            <a href="home.html#reserva" class="btn btn-primary">Reservar</a>
+                        </div>
+                        <div>
+                            <a href="https://api.whatsapp.com/send?phone=584249400498" class="btn btn-secondary">Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide" style="background-image: url('img/1-slider-2.webp'); background-size: cover; height: 100%;"></div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide" style="background-image: url('img/1-slider-3.webp'); background-size: cover; height: 100%;"></div>
+        </div>
+        <button class="swiper-button-prev" style="position: absolute; top: 50%; left: 20px; transform: translateY(-50%); z-index: 10; background: rgba(255,255,255,0.7); border: none; border-radius: 50%; "></button>
+        <button class="swiper-button-next" style="position: absolute; top: 50%; right: 20px; transform: translateY(-50%); z-index: 10; background: rgba(255,255,255,0.7); border: none; border-radius: 50%; "></button>
+        <div class="swiper-pagination" style="position: absolute; bottom: 20px; width: 100%; display: flex; justify-content: center; z-index: 10;"></div>
+    </header>
+
+    <section>
+        <article class="art1">
+            <div class="art1-div1">
+                <p class="division-p">Viaje</p>
+                <h2>Tu aventura comienza</h2>
+            </div>
+            <div class="art1-div2">
+                <p>Descubre el mundo con nosotros. Reserva tu viaje de manera rápida y sencilla.</p>
+                <div class="btn-container">
+                    <div>
+                        <a href="home.html#reserva" class="btn btn-primary">Reservar</a>
+                    </div>
+                    <div>
+                        <a href="#mas" class="btn btn-secondary">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="art2" id="mas">
+            <div class="art2-div1">
+                <div class="art2-div1-div1">
+                    <h3>Descubre nuestros servicios de viaje y reserva en un solo lugar.</h3>
+                </div>
+                <div class="art2-div1-div2">
+                    <p>Ofrecemos una experiencia de viaje única y personalizada. Reserva tus boletos de manera rápida y sencilla. Además, contamos con servicios de traslado terrestre y transporte de mascotas para que tu viaje sea completo.
+                    </p>
+                </div>
+            </div>
+            <div class="art2-div2">
+                <div class="art2-card">
+                    <img src="img/2.webp" alt="img-card1">
+                    <div>
+                        <h4>Translados terrestres seguros y confiables para tus viajes.</h4>
+                        <p>Nos aseguramos de que llegues a tu destino sin complicaciones.</p>
+                        <a href="home.html#reserva">Reservar <i class="bi bi-caret-right-fill"></i></a>
+                    </div>
+                </div>
+                <div class="art2-card">
+                    <img src="img/3.webp" alt="img-card2">
+                    <div>
+                        <h4>Transporte de mascotas.</h4>
+                        <p>Cuidamos tu mascota como si fuera nuestra.</p>
+                        <a href="home.html#reserva">Transportar <i class="bi bi-caret-right-fill"></i></a>
+                    </div>
+                </div>
+                <div class="art2-card">
+                    <img src="img/4.webp" alt="img-card3">
+                    <div>
+                        <h4>Envío de encomiendas rápido y seguro a cualquier destino.</h4>
+                        <p>Tu confianza es nuestra prioridad, garantizamos la entrega puntual.</p>
+                        <a href="home.html#reserva">Enviar <i class="bi bi-caret-right-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="art3">
+            <div class="art3-div1">
+                <div class="art3-div1-div1">
+                    <p class="division-p">Viajar</p>
+                    <h2>Beneficios de Elegir Nuestra Agencia de Viajes</h2>
+                    <p class="ar3-text">Viajar con LongArt es vivir la ruta con tranquilidad, belleza y confianza. Nuestro compromiso es llevarte seguro al destino, priorizando cada detalle para que el viaje salga perfecto. Hacemos paradas estratégicas para que captures
+                        recuerdos inolvidables y disfrutes el paisaje sin apuros. Porque más que un transporte, somos tu compañero de aventuras.</p>
+                    <div class="art3-container">
+                        <div class="art3-container-div1">
+                            <h3>Rápido</h3>
+                            <p>Reservas en un clic, sin complicaciones.</p>
+                        </div>
+                        <div class="art3-container-div2">
+                            <h3>Confiable</h3>
+                            <p>Tu seguridad es nuestra prioridad en cada viaje.</p>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <div>
+                            <a href="#image" class="btn btn-secondary">Explora</a>
+                        </div>
+                        <div>
+                            <a href="home.html#reserva" class="btn btn-obg">Reserva <i class="bi bi-caret-right-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="art3-div2">
+                <img src="img/5.webp" alt="plane-image">
+            </div>
+        </article>
+        <article class="art4">
+            <div class="art4-div1">
+                <h2>¡Reserva tu viaje ahora!</h2>
+                <p>Aprovecha nuestras ofertas y viaja sin complicaciones.</p>
+            </div>
+            <div class="btn-container">
+                <div>
+                    <a href="home.html#reserva" class="btn btn-primary">Reservar</a>
+                </div>
+                <div>
+                    <a href="#info" class="btn btn-secondary">Más info</a>
+                </div>
+            </div>
+        </article>
+        <article class="art5">
+            <div class="card-art5">
+                <i class="bi bi-envelope"></i>
+                <h3>Correo</h3>
+                <p>Contáctanos fácilmente a través de nuestro correo electrónico.</p>
+                <a href="#">infoviajes@gmail.com</a>
+            </div>
+            <div class="card-art5">
+                <i class="bi bi-chat-left-text"></i>
+                <h3>Chat en vivo</h3>
+                <p>Estamos aquí para ayudarte en tiempo real.</p>
+                <a href="https://api.whatsapp.com/send?phone=584249400498">Iniciar nuevo chat</a>
+            </div>
+            <div class="card-art5">
+                <i class="bi bi-telephone"></i>
+                <h3>Teléfono</h3>
+                <p>Llámanos para consultas y reservas.</p>
+                <a href="https://api.whatsapp.com/send?phone=584249400498">+58 424-9400498</a>
+            </div>
+        </article>
+        <article class="art6" id="image">
+            <div class="art6-div1">
+                <h3>Galería Visual</h3>
+                <p>Descubre nuestros destinos y servicios únicos para ti.</p>
+            </div>
+            <div class="art6-div2">
+                <div class="div1">
+                    <img src="img/6.webp" alt="image6">
+                </div>
+                <div class="div2">
+                    <img src="img/7.webp" alt="image7">
+                </div>
+                <div class="div3">
+                    <img src="img/8.webp" alt="image8">
+                </div>
+            </div>
+        </article>
+
+        <article class="art7" id="info">
+            <div class="art7-div1">
+                <h2>Nuestras 4 paradas favoritas</h2>
+                <p>Con LongArt,el viaje es mucho más que llegar: es vivirlo intensamente. Nos detenemos en joyas naturales como La Gran Sabana,donde los paisajes te envuelven con su serenidad y sus verdes infinitos. Ahí, la pausa no es solo para fotos, sino
+                    para conectar con lo sublime.
+                </p>
+                <p>Luego vienen los rápidos de Kamoirán, vibrantes y refrescantes, perfectos para soltar risas, dejar que el agua te despeine y sentirte parte de la naturaleza en movimiento.</p>
+            </div>
+            <div class="art7-div2">
+                <div class="art7-div2-div1">
+                    <img src="img/9.webp" alt="image9">
+                </div>
+                <div class="art7-div2-div2">
+                    <img src="img/10.webp" alt="image10">
+                </div>
+                <div class="art7-div2-div3">
+                    <img src="img/11.webp" alt="image11">
+                </div>
+                <div class="art7-div2-div4">
+                    <img src="img/12.webp" alt="image12">
+                </div>
+            </div>
+        </article>
+        <article class="art8">
+            <div class="art8-div1">
+                <h2>Viaja con nosotros desde cualquier parte de Venezuela hacia :</h2>
+            </div>
+            <div class="art8-div2">
+                <div class="art8-card">
+                    <img src="img/13.webp" alt="image13">
+                    <h5>Santiago - Chile</h5>
+                    <a href="home.html#reserva">Reservar <i class="bi bi-caret-right-fill"></i></a>
+                </div>
+                <div class="art8-card">
+                    <img src="img/14.webp" alt="image14">
+                    <h5>Curitiba - Brasil</h5>
+                    <a href="home.html#reserva">Transportar <i class="bi bi-caret-right-fill"></i></a>
+                </div>
+                <div class="art8-card">
+                    <img src="img/15.webp" alt="image15">
+                    <h5>Buenos Aires - Argentina</h5>
+                    <a href="home.html#reserva">Enviar <i class="bi bi-caret-right-fill"></i></a>
+                </div>
+            </div>
+        </article>
+        <article class="art9">
+            <div class="art9-div1">
+                <h3>Nuestros apreciados usuarios</h3>
+                <div class="slider-container">
+                    <div class="slider-container">
+                        <div class="swiper sliderSwiper">
+                            <div class="swiper-wrapper">
+                                <!-- Slide 1 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/16.webp" alt="image16">
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/17.webp" alt="image17">
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/18.webp" alt="image18">
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/19.webp" alt="image19">
+                                </div>
+                                <!-- Slide 5 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/20.webp" alt="image20">
+                                </div>
+                                <!-- Slide 7 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/22.webp" alt="image22">
+                                </div>
+                                <!-- Slide 8 -->
+                                <div class="swiper-slide art9Slides">
+                                    <img src="img/23.webp" alt="image23">
+                                </div>
+                                <!-- Puedes añadir más slides igual con background-image y texto -->
+                            </div>
+                            <!-- Controles y paginación -->
+                            <div class="swiper-pagination"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer class="footer-modern mt-5">
+        <div class="container-fluid">
+            <div class="row gy-4 justify-content-evenly align-items-start">
+                <div class="col-lg-3 col-md-6 footer-logo text-lg-start text-center">
+                    <img src="img/logo.webp" alt="LongArt Travell Logo">
+                    <p class="mt-3">LongArt Travell<br>Vive la experiencia de viajar seguro y feliz.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h5 class="mb-3">Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="bi bi-chevron-right"></i> Inicio rápido</a></li>
+                        <li><a href="home.html#paquetes"><i class="bi bi-chevron-right"></i> Ofertas Especiales</a></li>
+                        <li><a href="home.html#reserva"><i class="bi bi-chevron-right"></i> Reservas Fáciles</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=584249400498"><i class="bi bi-chevron-right"></i> Tour Personalizado</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=584249400498"><i class="bi bi-chevron-right"></i> Asistencia 24/7</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h5 class="mb-3">Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-envelope"></i> infoviajes@gmail.com</li>
+                        <li class="mb-2"><i class="bi bi-telephone"></i> +58 424-9400498</li>
+                        <li><i class="bi bi-geo-alt"></i> Venezuela</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-social text-lg-start text-center">
+                    <h5 class="mb-3">Síguenos</h5>
+                    <div class="social">
+                        <a href="https://www.instagram.com/longartdestinations?igsh=MWZpaHluMjVnaWs0aA=="><i class="bi bi-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=584249400498"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@longartviajes?_t=ZS-8yDjinHOv1r&_r=1"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mt-4">
+                &copy; 2025 LongArt Travell. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS para navbar responsive -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        var sliderSwiper = new Swiper('.sliderSwiper', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.slider-container .swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.slider-container .swiper-button-next',
+                prevEl: '.slider-container .swiper-button-prev',
+            }
+        });
+    </script>
+</body>
+
+</html>
