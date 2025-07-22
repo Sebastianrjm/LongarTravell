@@ -484,6 +484,13 @@ h3 {
     }
 }
 
+@media (max-width: 600px) {
+    .card-art5 {
+        width: 75%;
+        margin: 50px 0
+    }
+}
+
 .art6-div1 {
     margin: 0 auto;
 }
@@ -1061,6 +1068,7 @@ article p,
 
 @media (max-width: 600px) {
     .card-art5 a {
-        font-size: 1.3rem
+        font-size: 1.3rem;
+        text-align: center
     }
 }
